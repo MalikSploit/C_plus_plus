@@ -2,33 +2,36 @@
 // Created by root on 11/30/23.
 //
 
-#include <iostream>
+#include "Bavarde.hpp"
 
-class Bavarde {
-private:
-    int Inconnu;
-public:
-    Bavarde(int p = 0) : Inconnu(p)
-    {
-        std::cout << "Construction de " << Inconnu << std::endl;
-    }
-    ~Bavarde()
-    {
-        std::cout << "Tais-toi " << Inconnu << std::endl;
-    }
+Bavarde::Bavarde(int p) : Inconnu(p)
+{
+    std::cout << "Construction de " << Inconnu << std::endl;
+}
 
-    int get() const{
-        return Inconnu;
-    }
-};
+Bavarde::~Bavarde()
+{
+    std::cout << "Tais-toi " << Inconnu << std::endl;
+}
 
-Bavarde bizarre(1);
-Bavarde globale(2);
+int Bavarde::get() const {
+    return Inconnu;
+}
+
+// Variables globales ou fonctions liées à Bavarde
+//Bavarde bizarre(1);
+//Bavarde globale(2);
 
 void fonction(Bavarde b) {
     std::cout << "code de la fonction" << std::endl;
 }
 
+void Bavarde::afficher() const
+{
+    std::cout << "Affichage de " << Inconnu << std::endl;
+}
+
+/*
 int main(int, char **) {
     Bavarde b1(3);
     Bavarde b2(4);
@@ -39,4 +42,4 @@ int main(int, char **) {
     delete p;
 
     return 0;
-}
+}*/

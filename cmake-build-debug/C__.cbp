@@ -82,7 +82,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/root/CLionProjects/C_plus_plus/TP2/Fil_Rouge/main.cpp">
+		<Unit filename="/root/CLionProjects/C_plus_plus/TP3/Fille.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/C_plus_plus/TP3/Mere.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/C_plus_plus/TP3/Mere.hpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/C_plus_plus/TP3/main.cpp">
 			<Option target="C__"/>
 		</Unit>
 		<Unit filename="/root/CLionProjects/C_plus_plus/CMakeLists.txt">
