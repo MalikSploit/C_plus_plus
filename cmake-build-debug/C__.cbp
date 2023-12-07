@@ -82,16 +82,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/root/CLionProjects/C_plus_plus/TP3/Fille.cpp">
+		<Unit filename="/root/CLionProjects/C_plus_plus/TP3/Modelisation/Producteur.cpp">
 			<Option target="C__"/>
 		</Unit>
-		<Unit filename="/root/CLionProjects/C_plus_plus/TP3/Mere.cpp">
+		<Unit filename="/root/CLionProjects/C_plus_plus/TP3/Modelisation/Producteur.hpp">
 			<Option target="C__"/>
 		</Unit>
-		<Unit filename="/root/CLionProjects/C_plus_plus/TP3/Mere.hpp">
+		<Unit filename="/root/CLionProjects/C_plus_plus/TP3/Modelisation/ProducteurAleatoire.cpp">
 			<Option target="C__"/>
 		</Unit>
-		<Unit filename="/root/CLionProjects/C_plus_plus/TP3/main.cpp">
+		<Unit filename="/root/CLionProjects/C_plus_plus/TP3/Modelisation/ProducteurAleatoire.hpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/C_plus_plus/TP3/Modelisation/ProducteurPremiersEntiers.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/C_plus_plus/TP3/Modelisation/ProducteurPremiersEntiers.hpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/C_plus_plus/TP3/Modelisation/Statisticien.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/C_plus_plus/TP3/Modelisation/Statisticien.hpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/C_plus_plus/TP3/Modelisation/main.cpp">
 			<Option target="C__"/>
 		</Unit>
 		<Unit filename="/root/CLionProjects/C_plus_plus/CMakeLists.txt">

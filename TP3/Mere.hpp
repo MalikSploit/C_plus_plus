@@ -1,16 +1,22 @@
 //
 // Created by root on 12/6/23.
 //
+#include <string>
+#include <iostream>
 
-#ifndef C___MERE_H
-#define C___MERE_H
+#ifndef C_MERE_H
+#define C_MERE_H
 
 class Mere{
 private:
-    int nombre = 0;
+    static int nombre;
+    std::string nom;
 public:
-    explicit Mere();
-    ~Mere();
+    explicit Mere(std::string valeur);
+    virtual ~Mere();
+    static int getCompteur() ;
+    std::string getName();
+    virtual void afficher();
 };
 
-#endif //C___MERE_H
+#endif //C_MERE_H
