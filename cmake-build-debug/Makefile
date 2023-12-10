@@ -129,125 +129,77 @@ C__/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/build
 .PHONY : C__/fast
 
-TP3/Modelisation/Producteur.o: TP3/Modelisation/Producteur.cpp.o
-.PHONY : TP3/Modelisation/Producteur.o
+TP3/Messages/A.o: TP3/Messages/A.cpp.o
+.PHONY : TP3/Messages/A.o
 
 # target to build an object file
-TP3/Modelisation/Producteur.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP3/Modelisation/Producteur.cpp.o
-.PHONY : TP3/Modelisation/Producteur.cpp.o
+TP3/Messages/A.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP3/Messages/A.cpp.o
+.PHONY : TP3/Messages/A.cpp.o
 
-TP3/Modelisation/Producteur.i: TP3/Modelisation/Producteur.cpp.i
-.PHONY : TP3/Modelisation/Producteur.i
+TP3/Messages/A.i: TP3/Messages/A.cpp.i
+.PHONY : TP3/Messages/A.i
 
 # target to preprocess a source file
-TP3/Modelisation/Producteur.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP3/Modelisation/Producteur.cpp.i
-.PHONY : TP3/Modelisation/Producteur.cpp.i
+TP3/Messages/A.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP3/Messages/A.cpp.i
+.PHONY : TP3/Messages/A.cpp.i
 
-TP3/Modelisation/Producteur.s: TP3/Modelisation/Producteur.cpp.s
-.PHONY : TP3/Modelisation/Producteur.s
+TP3/Messages/A.s: TP3/Messages/A.cpp.s
+.PHONY : TP3/Messages/A.s
 
 # target to generate assembly for a file
-TP3/Modelisation/Producteur.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP3/Modelisation/Producteur.cpp.s
-.PHONY : TP3/Modelisation/Producteur.cpp.s
+TP3/Messages/A.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP3/Messages/A.cpp.s
+.PHONY : TP3/Messages/A.cpp.s
 
-TP3/Modelisation/ProducteurAleatoire.o: TP3/Modelisation/ProducteurAleatoire.cpp.o
-.PHONY : TP3/Modelisation/ProducteurAleatoire.o
+TP3/Messages/B.o: TP3/Messages/B.cpp.o
+.PHONY : TP3/Messages/B.o
 
 # target to build an object file
-TP3/Modelisation/ProducteurAleatoire.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP3/Modelisation/ProducteurAleatoire.cpp.o
-.PHONY : TP3/Modelisation/ProducteurAleatoire.cpp.o
+TP3/Messages/B.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP3/Messages/B.cpp.o
+.PHONY : TP3/Messages/B.cpp.o
 
-TP3/Modelisation/ProducteurAleatoire.i: TP3/Modelisation/ProducteurAleatoire.cpp.i
-.PHONY : TP3/Modelisation/ProducteurAleatoire.i
+TP3/Messages/B.i: TP3/Messages/B.cpp.i
+.PHONY : TP3/Messages/B.i
 
 # target to preprocess a source file
-TP3/Modelisation/ProducteurAleatoire.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP3/Modelisation/ProducteurAleatoire.cpp.i
-.PHONY : TP3/Modelisation/ProducteurAleatoire.cpp.i
+TP3/Messages/B.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP3/Messages/B.cpp.i
+.PHONY : TP3/Messages/B.cpp.i
 
-TP3/Modelisation/ProducteurAleatoire.s: TP3/Modelisation/ProducteurAleatoire.cpp.s
-.PHONY : TP3/Modelisation/ProducteurAleatoire.s
+TP3/Messages/B.s: TP3/Messages/B.cpp.s
+.PHONY : TP3/Messages/B.s
 
 # target to generate assembly for a file
-TP3/Modelisation/ProducteurAleatoire.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP3/Modelisation/ProducteurAleatoire.cpp.s
-.PHONY : TP3/Modelisation/ProducteurAleatoire.cpp.s
+TP3/Messages/B.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP3/Messages/B.cpp.s
+.PHONY : TP3/Messages/B.cpp.s
 
-TP3/Modelisation/ProducteurPremiersEntiers.o: TP3/Modelisation/ProducteurPremiersEntiers.cpp.o
-.PHONY : TP3/Modelisation/ProducteurPremiersEntiers.o
+TP3/Messages/main.o: TP3/Messages/main.cpp.o
+.PHONY : TP3/Messages/main.o
 
 # target to build an object file
-TP3/Modelisation/ProducteurPremiersEntiers.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP3/Modelisation/ProducteurPremiersEntiers.cpp.o
-.PHONY : TP3/Modelisation/ProducteurPremiersEntiers.cpp.o
+TP3/Messages/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP3/Messages/main.cpp.o
+.PHONY : TP3/Messages/main.cpp.o
 
-TP3/Modelisation/ProducteurPremiersEntiers.i: TP3/Modelisation/ProducteurPremiersEntiers.cpp.i
-.PHONY : TP3/Modelisation/ProducteurPremiersEntiers.i
-
-# target to preprocess a source file
-TP3/Modelisation/ProducteurPremiersEntiers.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP3/Modelisation/ProducteurPremiersEntiers.cpp.i
-.PHONY : TP3/Modelisation/ProducteurPremiersEntiers.cpp.i
-
-TP3/Modelisation/ProducteurPremiersEntiers.s: TP3/Modelisation/ProducteurPremiersEntiers.cpp.s
-.PHONY : TP3/Modelisation/ProducteurPremiersEntiers.s
-
-# target to generate assembly for a file
-TP3/Modelisation/ProducteurPremiersEntiers.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP3/Modelisation/ProducteurPremiersEntiers.cpp.s
-.PHONY : TP3/Modelisation/ProducteurPremiersEntiers.cpp.s
-
-TP3/Modelisation/Statisticien.o: TP3/Modelisation/Statisticien.cpp.o
-.PHONY : TP3/Modelisation/Statisticien.o
-
-# target to build an object file
-TP3/Modelisation/Statisticien.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP3/Modelisation/Statisticien.cpp.o
-.PHONY : TP3/Modelisation/Statisticien.cpp.o
-
-TP3/Modelisation/Statisticien.i: TP3/Modelisation/Statisticien.cpp.i
-.PHONY : TP3/Modelisation/Statisticien.i
+TP3/Messages/main.i: TP3/Messages/main.cpp.i
+.PHONY : TP3/Messages/main.i
 
 # target to preprocess a source file
-TP3/Modelisation/Statisticien.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP3/Modelisation/Statisticien.cpp.i
-.PHONY : TP3/Modelisation/Statisticien.cpp.i
+TP3/Messages/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP3/Messages/main.cpp.i
+.PHONY : TP3/Messages/main.cpp.i
 
-TP3/Modelisation/Statisticien.s: TP3/Modelisation/Statisticien.cpp.s
-.PHONY : TP3/Modelisation/Statisticien.s
-
-# target to generate assembly for a file
-TP3/Modelisation/Statisticien.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP3/Modelisation/Statisticien.cpp.s
-.PHONY : TP3/Modelisation/Statisticien.cpp.s
-
-TP3/Modelisation/main.o: TP3/Modelisation/main.cpp.o
-.PHONY : TP3/Modelisation/main.o
-
-# target to build an object file
-TP3/Modelisation/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP3/Modelisation/main.cpp.o
-.PHONY : TP3/Modelisation/main.cpp.o
-
-TP3/Modelisation/main.i: TP3/Modelisation/main.cpp.i
-.PHONY : TP3/Modelisation/main.i
-
-# target to preprocess a source file
-TP3/Modelisation/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP3/Modelisation/main.cpp.i
-.PHONY : TP3/Modelisation/main.cpp.i
-
-TP3/Modelisation/main.s: TP3/Modelisation/main.cpp.s
-.PHONY : TP3/Modelisation/main.s
+TP3/Messages/main.s: TP3/Messages/main.cpp.s
+.PHONY : TP3/Messages/main.s
 
 # target to generate assembly for a file
-TP3/Modelisation/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP3/Modelisation/main.cpp.s
-.PHONY : TP3/Modelisation/main.cpp.s
+TP3/Messages/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP3/Messages/main.cpp.s
+.PHONY : TP3/Messages/main.cpp.s
 
 # Help Target
 help:
@@ -258,21 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C__"
-	@echo "... TP3/Modelisation/Producteur.o"
-	@echo "... TP3/Modelisation/Producteur.i"
-	@echo "... TP3/Modelisation/Producteur.s"
-	@echo "... TP3/Modelisation/ProducteurAleatoire.o"
-	@echo "... TP3/Modelisation/ProducteurAleatoire.i"
-	@echo "... TP3/Modelisation/ProducteurAleatoire.s"
-	@echo "... TP3/Modelisation/ProducteurPremiersEntiers.o"
-	@echo "... TP3/Modelisation/ProducteurPremiersEntiers.i"
-	@echo "... TP3/Modelisation/ProducteurPremiersEntiers.s"
-	@echo "... TP3/Modelisation/Statisticien.o"
-	@echo "... TP3/Modelisation/Statisticien.i"
-	@echo "... TP3/Modelisation/Statisticien.s"
-	@echo "... TP3/Modelisation/main.o"
-	@echo "... TP3/Modelisation/main.i"
-	@echo "... TP3/Modelisation/main.s"
+	@echo "... TP3/Messages/A.o"
+	@echo "... TP3/Messages/A.i"
+	@echo "... TP3/Messages/A.s"
+	@echo "... TP3/Messages/B.o"
+	@echo "... TP3/Messages/B.i"
+	@echo "... TP3/Messages/B.s"
+	@echo "... TP3/Messages/main.o"
+	@echo "... TP3/Messages/main.i"
+	@echo "... TP3/Messages/main.s"
 .PHONY : help
 
 

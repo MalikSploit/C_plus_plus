@@ -2,7 +2,7 @@
 // Created by root on 12/6/23.
 //
 
-#include "../TP2/Bavarde.hpp"
+#include "../../TP2/Bavarde.hpp"
 
 int main(int, char **) {
     const int TAILLE = 20;
