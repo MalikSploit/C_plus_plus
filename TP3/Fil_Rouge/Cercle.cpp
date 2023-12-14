@@ -4,11 +4,15 @@
 
 #include "Cercle.hpp"
 
-Cercle::Cercle(int cx, int cy, int w, int h) : x(cx), y(cy), ordre(0)
-{
-    rayon = std::min(w, h) / 2;
+Cercle::Cercle(int cx, int cy, int r) : Forme(cx, cy), rayon(r), ordre(0) {}
+
+void Cercle::setOrdre(int ord) {
+    ordre = ord;
 }
 
 std::string Cercle::toString() const {
-    return "CERCLE " + std::to_string(x) + " " + std::to_string(y)  + " " + std::to_string(rayon);
+    std::stringstream ss;
+    ss << "Cercle(center: [" << point.getX() << ", " << point.getY() << "], rayon: " << rayon << ", ordre: " << ordre << ")";
+    return ss.str();
 }
+

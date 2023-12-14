@@ -3,15 +3,19 @@
 //
 
 #include <string>
+#include "Point.hpp"
+#include "sstream"
+#include "Forme.hpp"
 
 #ifndef C_RECTANGLE_HPP
 #define C_RECTANGLE_HPP
 
-class Rectangle{
+class Rectangle : public Forme{
 private:
-    int x, y, w, h, ordre;
+    int w, h, ordre;
 public:
     Rectangle(int x, int y, int w, int h);
+    void setOrdre(int ordre);
     std::string toString() const;
 };
 

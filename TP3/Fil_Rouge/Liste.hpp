@@ -5,9 +5,10 @@
 #include "Rectangle.hpp"
 #include "Cercle.hpp"
 #include <string>
+#include <sstream>
 
-#ifndef C___LISTE_HPP
-#define C___LISTE_HPP
+#ifndef C_LISTE_HPP
+#define C_LISTE_HPP
 
 const int MAX_SIZE = 100;
 
@@ -16,15 +17,16 @@ public:
     int nb_c;
     int nb_r;
     int compteur;
-    Cercle *cercle[MAX_SIZE];
+    Cercle *cercles[MAX_SIZE];
     Rectangle *rectangles[MAX_SIZE];
 
     Liste();
     ~Liste();
     std::string toString() const;
 
-    void addCercle(Cercle *cercle);
+    void addCercle(Cercle *cercles);
     void addRectangle(Rectangle *rectangle);
+    int getCompteur() const;
 };
 
-#endif //C___LISTE_HPP
+#endif //C_LISTE_HPP

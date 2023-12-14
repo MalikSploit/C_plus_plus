@@ -69,63 +69,79 @@ include CMakeFiles/C__.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/C__.dir/flags.make
 
-CMakeFiles/C__.dir/TP3/Messages/main.cpp.o: CMakeFiles/C__.dir/flags.make
-CMakeFiles/C__.dir/TP3/Messages/main.cpp.o: /root/CLionProjects/C_plus_plus/TP3/Messages/main.cpp
-CMakeFiles/C__.dir/TP3/Messages/main.cpp.o: CMakeFiles/C__.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/C_plus_plus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/C__.dir/TP3/Messages/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/C__.dir/TP3/Messages/main.cpp.o -MF CMakeFiles/C__.dir/TP3/Messages/main.cpp.o.d -o CMakeFiles/C__.dir/TP3/Messages/main.cpp.o -c /root/CLionProjects/C_plus_plus/TP3/Messages/main.cpp
+CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.o: CMakeFiles/C__.dir/flags.make
+CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.o: /root/CLionProjects/C_plus_plus/TP6/Exceptions/main.cpp
+CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.o: CMakeFiles/C__.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/C_plus_plus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.o -MF CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.o.d -o CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.o -c /root/CLionProjects/C_plus_plus/TP6/Exceptions/main.cpp
 
-CMakeFiles/C__.dir/TP3/Messages/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__.dir/TP3/Messages/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CLionProjects/C_plus_plus/TP3/Messages/main.cpp > CMakeFiles/C__.dir/TP3/Messages/main.cpp.i
+CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CLionProjects/C_plus_plus/TP6/Exceptions/main.cpp > CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.i
 
-CMakeFiles/C__.dir/TP3/Messages/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__.dir/TP3/Messages/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CLionProjects/C_plus_plus/TP3/Messages/main.cpp -o CMakeFiles/C__.dir/TP3/Messages/main.cpp.s
+CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CLionProjects/C_plus_plus/TP6/Exceptions/main.cpp -o CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.s
 
-CMakeFiles/C__.dir/TP3/Messages/A.cpp.o: CMakeFiles/C__.dir/flags.make
-CMakeFiles/C__.dir/TP3/Messages/A.cpp.o: /root/CLionProjects/C_plus_plus/TP3/Messages/A.cpp
-CMakeFiles/C__.dir/TP3/Messages/A.cpp.o: CMakeFiles/C__.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/C_plus_plus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/C__.dir/TP3/Messages/A.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/C__.dir/TP3/Messages/A.cpp.o -MF CMakeFiles/C__.dir/TP3/Messages/A.cpp.o.d -o CMakeFiles/C__.dir/TP3/Messages/A.cpp.o -c /root/CLionProjects/C_plus_plus/TP3/Messages/A.cpp
+CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.o: CMakeFiles/C__.dir/flags.make
+CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.o: /root/CLionProjects/C_plus_plus/TP6/Exceptions/Chaine.cpp
+CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.o: CMakeFiles/C__.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/C_plus_plus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.o -MF CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.o.d -o CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.o -c /root/CLionProjects/C_plus_plus/TP6/Exceptions/Chaine.cpp
 
-CMakeFiles/C__.dir/TP3/Messages/A.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__.dir/TP3/Messages/A.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CLionProjects/C_plus_plus/TP3/Messages/A.cpp > CMakeFiles/C__.dir/TP3/Messages/A.cpp.i
+CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CLionProjects/C_plus_plus/TP6/Exceptions/Chaine.cpp > CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.i
 
-CMakeFiles/C__.dir/TP3/Messages/A.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__.dir/TP3/Messages/A.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CLionProjects/C_plus_plus/TP3/Messages/A.cpp -o CMakeFiles/C__.dir/TP3/Messages/A.cpp.s
+CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CLionProjects/C_plus_plus/TP6/Exceptions/Chaine.cpp -o CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.s
 
-CMakeFiles/C__.dir/TP3/Messages/B.cpp.o: CMakeFiles/C__.dir/flags.make
-CMakeFiles/C__.dir/TP3/Messages/B.cpp.o: /root/CLionProjects/C_plus_plus/TP3/Messages/B.cpp
-CMakeFiles/C__.dir/TP3/Messages/B.cpp.o: CMakeFiles/C__.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/C_plus_plus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/C__.dir/TP3/Messages/B.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/C__.dir/TP3/Messages/B.cpp.o -MF CMakeFiles/C__.dir/TP3/Messages/B.cpp.o.d -o CMakeFiles/C__.dir/TP3/Messages/B.cpp.o -c /root/CLionProjects/C_plus_plus/TP3/Messages/B.cpp
+CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.o: CMakeFiles/C__.dir/flags.make
+CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.o: /root/CLionProjects/C_plus_plus/TP6/Exceptions/OutOfRangeException.cpp
+CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.o: CMakeFiles/C__.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/C_plus_plus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.o -MF CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.o.d -o CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.o -c /root/CLionProjects/C_plus_plus/TP6/Exceptions/OutOfRangeException.cpp
 
-CMakeFiles/C__.dir/TP3/Messages/B.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__.dir/TP3/Messages/B.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CLionProjects/C_plus_plus/TP3/Messages/B.cpp > CMakeFiles/C__.dir/TP3/Messages/B.cpp.i
+CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CLionProjects/C_plus_plus/TP6/Exceptions/OutOfRangeException.cpp > CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.i
 
-CMakeFiles/C__.dir/TP3/Messages/B.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__.dir/TP3/Messages/B.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CLionProjects/C_plus_plus/TP3/Messages/B.cpp -o CMakeFiles/C__.dir/TP3/Messages/B.cpp.s
+CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CLionProjects/C_plus_plus/TP6/Exceptions/OutOfRangeException.cpp -o CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.s
+
+CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.o: CMakeFiles/C__.dir/flags.make
+CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.o: /root/CLionProjects/C_plus_plus/TP6/Exceptions/null_pointer.cpp
+CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.o: CMakeFiles/C__.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/C_plus_plus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.o -MF CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.o.d -o CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.o -c /root/CLionProjects/C_plus_plus/TP6/Exceptions/null_pointer.cpp
+
+CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CLionProjects/C_plus_plus/TP6/Exceptions/null_pointer.cpp > CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.i
+
+CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CLionProjects/C_plus_plus/TP6/Exceptions/null_pointer.cpp -o CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.s
 
 # Object files for target C__
 C___OBJECTS = \
-"CMakeFiles/C__.dir/TP3/Messages/main.cpp.o" \
-"CMakeFiles/C__.dir/TP3/Messages/A.cpp.o" \
-"CMakeFiles/C__.dir/TP3/Messages/B.cpp.o"
+"CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.o" \
+"CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.o" \
+"CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.o" \
+"CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.o"
 
 # External object files for target C__
 C___EXTERNAL_OBJECTS =
 
-C__: CMakeFiles/C__.dir/TP3/Messages/main.cpp.o
-C__: CMakeFiles/C__.dir/TP3/Messages/A.cpp.o
-C__: CMakeFiles/C__.dir/TP3/Messages/B.cpp.o
+C__: CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.o
+C__: CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.o
+C__: CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.o
+C__: CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.o
 C__: CMakeFiles/C__.dir/build.make
 C__: CMakeFiles/C__.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/CLionProjects/C_plus_plus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable C__"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/CLionProjects/C_plus_plus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable C__"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/C__.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

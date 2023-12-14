@@ -6,11 +6,17 @@
 
 Bavarde::Bavarde(int p) : Inconnu(p)
 {
-    std::cout << "Construction de " << Inconnu << std::endl;
+    count++;
+}
+
+Bavarde::Bavarde(const Bavarde& copie) : Inconnu(copie.Inconnu){
+    count++;
+
 }
 
 Bavarde::~Bavarde()
 {
+    count--;
     std::cout << "Tais-toi " << Inconnu << std::endl;
 }
 
@@ -29,6 +35,10 @@ void fonction(Bavarde b) {
 void Bavarde::afficher() const
 {
     std::cout << "Affichage de " << Inconnu << std::endl;
+}
+
+int Bavarde::getCount() {
+    return count;
 }
 
 /*

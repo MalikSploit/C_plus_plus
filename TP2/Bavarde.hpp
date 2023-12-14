@@ -7,12 +7,15 @@
 class Bavarde {
 private:
     int Inconnu;
+    inline static int count = 0;
 public:
-    Bavarde(int p = 0);
+    explicit Bavarde(int p = 0);
+    Bavarde(const Bavarde& copie); //Constructeur de copie
     ~Bavarde();
 
     int get() const;
     void afficher() const;
+    static int getCount();
 };
 
 

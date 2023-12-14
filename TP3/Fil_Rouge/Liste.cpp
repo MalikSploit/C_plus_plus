@@ -6,48 +6,53 @@
 
 Liste::Liste(): nb_c(0), nb_r(0), compteur(0) {
     for (int i = 0; i < MAX_SIZE; ++i){
-        cercle[i] = nullptr;
+        cercles[i] = nullptr;
         rectangles[i] = nullptr;
     }
 }
 
-Liste::~Liste(){
-    for (int i = 0; i < MAX_SIZE; ++i){
-        delete cercle[i];
+Liste::~Liste() {
+    for (int i = 0; i < nb_c; ++i) {
+        delete cercles[i];
+        cercles[i] = nullptr;
+    }
+    for (int i = 0; i < nb_r; ++i) {
         delete rectangles[i];
+        rectangles[i] = nullptr;
     }
 }
 
-int getCompteur() const{
-    return ccompteur
+int Liste::getCompteur() const{
+    return compteur;
 }
 
-std::string Liste::toString() const
-{
+std::string Liste::toString() const {
     std::stringstream ss;
-    for (int i = 0; i < nb_c; i++){
-        if (cercles[i] != nullptr){
+    for (int i = 0; i < nb_c; i++) {
+        if (cercles[i] != nullptr) {
             ss << cercles[i]->toString() << std::endl;
         }
     }
-    for (int i = 0; i < nb_r; i++){
-        if (rectangles[i] != nullptr){
+    for (int i = 0; i < nb_r; i++) {
+        if (rectangles[i] != nullptr) {
             ss << rectangles[i]->toString() << std::endl;
         }
     }
+    return ss.str();
 }
 
 void Liste::addCercle(Cercle *cercle){
     if (nb_c < MAX_SIZE){
-        cercle[nb_c] = cercle;
-        cercles[nb_c]->ordre = compteur++;
+        cercles[nb_c] = cercle;
+        cercles[nb_c]->setOrdre(compteur++);
         nb_c++;
     }
 }
 
 void Liste::addRectangle(Rectangle *rectangle){
     if (nb_r < MAX_SIZE){
-        rectangle[nb_r] = rectangle;
-        rectangle[nb_r]->ordre = compteur++;
+        rectangles[nb_r] = rectangle;
+        rectangles[nb_r]->setOrdre(compteur++);
+        nb_r++;
     }
 }
