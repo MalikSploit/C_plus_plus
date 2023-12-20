@@ -82,22 +82,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/root/CLionProjects/C_plus_plus/TP6/Exceptions/Chaine.cpp">
+		<Unit filename="/root/CLionProjects/C_plus_plus/TP6/Pile/Pile.cpp">
 			<Option target="C__"/>
 		</Unit>
-		<Unit filename="/root/CLionProjects/C_plus_plus/TP6/Exceptions/Chaine.hpp">
+		<Unit filename="/root/CLionProjects/C_plus_plus/TP6/Pile/Pile.hpp">
 			<Option target="C__"/>
 		</Unit>
-		<Unit filename="/root/CLionProjects/C_plus_plus/TP6/Exceptions/OutOfRangeException.cpp">
+		<Unit filename="/root/CLionProjects/C_plus_plus/TP6/Pile/main_test.cpp">
 			<Option target="C__"/>
 		</Unit>
-		<Unit filename="/root/CLionProjects/C_plus_plus/TP6/Exceptions/OutOfRangeException.hpp">
-			<Option target="C__"/>
-		</Unit>
-		<Unit filename="/root/CLionProjects/C_plus_plus/TP6/Exceptions/main.cpp">
-			<Option target="C__"/>
-		</Unit>
-		<Unit filename="/root/CLionProjects/C_plus_plus/TP6/Exceptions/null_pointer.cpp">
+		<Unit filename="/root/CLionProjects/C_plus_plus/TP6/Pile/tests_catch.cpp">
 			<Option target="C__"/>
 		</Unit>
 		<Unit filename="/root/CLionProjects/C_plus_plus/CMakeLists.txt">

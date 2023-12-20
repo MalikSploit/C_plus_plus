@@ -69,79 +69,63 @@ include CMakeFiles/C__.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/C__.dir/flags.make
 
-CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.o: CMakeFiles/C__.dir/flags.make
-CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.o: /root/CLionProjects/C_plus_plus/TP6/Exceptions/main.cpp
-CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.o: CMakeFiles/C__.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/C_plus_plus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.o -MF CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.o.d -o CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.o -c /root/CLionProjects/C_plus_plus/TP6/Exceptions/main.cpp
+CMakeFiles/C__.dir/TP6/Pile/tests_catch.cpp.o: CMakeFiles/C__.dir/flags.make
+CMakeFiles/C__.dir/TP6/Pile/tests_catch.cpp.o: /root/CLionProjects/C_plus_plus/TP6/Pile/tests_catch.cpp
+CMakeFiles/C__.dir/TP6/Pile/tests_catch.cpp.o: CMakeFiles/C__.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/C_plus_plus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/C__.dir/TP6/Pile/tests_catch.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/C__.dir/TP6/Pile/tests_catch.cpp.o -MF CMakeFiles/C__.dir/TP6/Pile/tests_catch.cpp.o.d -o CMakeFiles/C__.dir/TP6/Pile/tests_catch.cpp.o -c /root/CLionProjects/C_plus_plus/TP6/Pile/tests_catch.cpp
 
-CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CLionProjects/C_plus_plus/TP6/Exceptions/main.cpp > CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.i
+CMakeFiles/C__.dir/TP6/Pile/tests_catch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__.dir/TP6/Pile/tests_catch.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CLionProjects/C_plus_plus/TP6/Pile/tests_catch.cpp > CMakeFiles/C__.dir/TP6/Pile/tests_catch.cpp.i
 
-CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CLionProjects/C_plus_plus/TP6/Exceptions/main.cpp -o CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.s
+CMakeFiles/C__.dir/TP6/Pile/tests_catch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__.dir/TP6/Pile/tests_catch.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CLionProjects/C_plus_plus/TP6/Pile/tests_catch.cpp -o CMakeFiles/C__.dir/TP6/Pile/tests_catch.cpp.s
 
-CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.o: CMakeFiles/C__.dir/flags.make
-CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.o: /root/CLionProjects/C_plus_plus/TP6/Exceptions/Chaine.cpp
-CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.o: CMakeFiles/C__.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/C_plus_plus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.o -MF CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.o.d -o CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.o -c /root/CLionProjects/C_plus_plus/TP6/Exceptions/Chaine.cpp
+CMakeFiles/C__.dir/TP6/Pile/main_test.cpp.o: CMakeFiles/C__.dir/flags.make
+CMakeFiles/C__.dir/TP6/Pile/main_test.cpp.o: /root/CLionProjects/C_plus_plus/TP6/Pile/main_test.cpp
+CMakeFiles/C__.dir/TP6/Pile/main_test.cpp.o: CMakeFiles/C__.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/C_plus_plus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/C__.dir/TP6/Pile/main_test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/C__.dir/TP6/Pile/main_test.cpp.o -MF CMakeFiles/C__.dir/TP6/Pile/main_test.cpp.o.d -o CMakeFiles/C__.dir/TP6/Pile/main_test.cpp.o -c /root/CLionProjects/C_plus_plus/TP6/Pile/main_test.cpp
 
-CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CLionProjects/C_plus_plus/TP6/Exceptions/Chaine.cpp > CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.i
+CMakeFiles/C__.dir/TP6/Pile/main_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__.dir/TP6/Pile/main_test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CLionProjects/C_plus_plus/TP6/Pile/main_test.cpp > CMakeFiles/C__.dir/TP6/Pile/main_test.cpp.i
 
-CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CLionProjects/C_plus_plus/TP6/Exceptions/Chaine.cpp -o CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.s
+CMakeFiles/C__.dir/TP6/Pile/main_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__.dir/TP6/Pile/main_test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CLionProjects/C_plus_plus/TP6/Pile/main_test.cpp -o CMakeFiles/C__.dir/TP6/Pile/main_test.cpp.s
 
-CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.o: CMakeFiles/C__.dir/flags.make
-CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.o: /root/CLionProjects/C_plus_plus/TP6/Exceptions/OutOfRangeException.cpp
-CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.o: CMakeFiles/C__.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/C_plus_plus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.o -MF CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.o.d -o CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.o -c /root/CLionProjects/C_plus_plus/TP6/Exceptions/OutOfRangeException.cpp
+CMakeFiles/C__.dir/TP6/Pile/Pile.cpp.o: CMakeFiles/C__.dir/flags.make
+CMakeFiles/C__.dir/TP6/Pile/Pile.cpp.o: /root/CLionProjects/C_plus_plus/TP6/Pile/Pile.cpp
+CMakeFiles/C__.dir/TP6/Pile/Pile.cpp.o: CMakeFiles/C__.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/C_plus_plus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/C__.dir/TP6/Pile/Pile.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/C__.dir/TP6/Pile/Pile.cpp.o -MF CMakeFiles/C__.dir/TP6/Pile/Pile.cpp.o.d -o CMakeFiles/C__.dir/TP6/Pile/Pile.cpp.o -c /root/CLionProjects/C_plus_plus/TP6/Pile/Pile.cpp
 
-CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CLionProjects/C_plus_plus/TP6/Exceptions/OutOfRangeException.cpp > CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.i
+CMakeFiles/C__.dir/TP6/Pile/Pile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__.dir/TP6/Pile/Pile.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CLionProjects/C_plus_plus/TP6/Pile/Pile.cpp > CMakeFiles/C__.dir/TP6/Pile/Pile.cpp.i
 
-CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CLionProjects/C_plus_plus/TP6/Exceptions/OutOfRangeException.cpp -o CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.s
-
-CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.o: CMakeFiles/C__.dir/flags.make
-CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.o: /root/CLionProjects/C_plus_plus/TP6/Exceptions/null_pointer.cpp
-CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.o: CMakeFiles/C__.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/C_plus_plus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.o -MF CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.o.d -o CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.o -c /root/CLionProjects/C_plus_plus/TP6/Exceptions/null_pointer.cpp
-
-CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CLionProjects/C_plus_plus/TP6/Exceptions/null_pointer.cpp > CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.i
-
-CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CLionProjects/C_plus_plus/TP6/Exceptions/null_pointer.cpp -o CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.s
+CMakeFiles/C__.dir/TP6/Pile/Pile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__.dir/TP6/Pile/Pile.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CLionProjects/C_plus_plus/TP6/Pile/Pile.cpp -o CMakeFiles/C__.dir/TP6/Pile/Pile.cpp.s
 
 # Object files for target C__
 C___OBJECTS = \
-"CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.o" \
-"CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.o" \
-"CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.o" \
-"CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.o"
+"CMakeFiles/C__.dir/TP6/Pile/tests_catch.cpp.o" \
+"CMakeFiles/C__.dir/TP6/Pile/main_test.cpp.o" \
+"CMakeFiles/C__.dir/TP6/Pile/Pile.cpp.o"
 
 # External object files for target C__
 C___EXTERNAL_OBJECTS =
 
-C__: CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.o
-C__: CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.o
-C__: CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.o
-C__: CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.o
+C__: CMakeFiles/C__.dir/TP6/Pile/tests_catch.cpp.o
+C__: CMakeFiles/C__.dir/TP6/Pile/main_test.cpp.o
+C__: CMakeFiles/C__.dir/TP6/Pile/Pile.cpp.o
 C__: CMakeFiles/C__.dir/build.make
 C__: CMakeFiles/C__.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/CLionProjects/C_plus_plus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable C__"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/CLionProjects/C_plus_plus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable C__"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/C__.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

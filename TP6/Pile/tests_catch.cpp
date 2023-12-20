@@ -1,6 +1,5 @@
 #include "catch.hpp"
-#include <cstring>
-#include <sstream> 
+#include <sstream>
 #include "Pile.hpp"
 
 TEST_CASE("Constructeur par defaut") {
@@ -13,16 +12,17 @@ TEST_CASE("Constructeur par defaut") {
 
 TEST_CASE("Exceptions de mauvaise construction") {
    // fait appel à une exception standard en cas d'erreur
-   REQUIRE_THROWS_AS( Pile(-1).empty(), std::invalid_argument );
-   REQUIRE_THROWS_AS( Pile( 0).empty(), std::invalid_argument );
-
+   REQUIRE_THROWS_AS( Pile(-1).empty(), Pile::ExceptionPile);
+   REQUIRE_THROWS_AS( Pile( 0).empty(), Pile::ExceptionPile);
 }
+
 
 TEST_CASE("Exception pile vide") {
    // fait appel à une exception standard en cas d'erreur
-   REQUIRE_THROWS_AS( Pile().pop(), std::invalid_argument );
+   REQUIRE_THROWS_AS( Pile().pop(), Pile::ExceptionPile);
 
 }
+
 
 TEST_CASE("Live pile") {
     Pile p(10);

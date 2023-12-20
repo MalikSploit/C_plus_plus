@@ -1,12 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.o"
-  "CMakeFiles/C__.dir/TP6/Exceptions/Chaine.cpp.o.d"
-  "CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.o"
-  "CMakeFiles/C__.dir/TP6/Exceptions/OutOfRangeException.cpp.o.d"
-  "CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.o"
-  "CMakeFiles/C__.dir/TP6/Exceptions/main.cpp.o.d"
-  "CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.o"
-  "CMakeFiles/C__.dir/TP6/Exceptions/null_pointer.cpp.o.d"
+  "CMakeFiles/C__.dir/TP6/Pile/Pile.cpp.o"
+  "CMakeFiles/C__.dir/TP6/Pile/Pile.cpp.o.d"
+  "CMakeFiles/C__.dir/TP6/Pile/main_test.cpp.o"
+  "CMakeFiles/C__.dir/TP6/Pile/main_test.cpp.o.d"
+  "CMakeFiles/C__.dir/TP6/Pile/tests_catch.cpp.o"
+  "CMakeFiles/C__.dir/TP6/Pile/tests_catch.cpp.o.d"
   "C__"
   "C__.pdb"
 )
