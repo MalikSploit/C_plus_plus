@@ -5,7 +5,7 @@
 #include <iostream>
 #include <cmath>
 
-class Cercle {
+class [[maybe_unused]] Cercle {
 private:
     int x, y;
     int rayon;

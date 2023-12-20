@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/C__.dir/TP6/Pile/Pile.cpp.o"
-  "CMakeFiles/C__.dir/TP6/Pile/Pile.cpp.o.d"
-  "CMakeFiles/C__.dir/TP6/Pile/main_test.cpp.o"
-  "CMakeFiles/C__.dir/TP6/Pile/main_test.cpp.o.d"
-  "CMakeFiles/C__.dir/TP6/Pile/tests_catch.cpp.o"
-  "CMakeFiles/C__.dir/TP6/Pile/tests_catch.cpp.o.d"
+  "CMakeFiles/C__.dir/TP7/File_Rouge/Cercle.cpp.o"
+  "CMakeFiles/C__.dir/TP7/File_Rouge/Cercle.cpp.o.d"
+  "CMakeFiles/C__.dir/TP7/File_Rouge/Groupe.cpp.o"
+  "CMakeFiles/C__.dir/TP7/File_Rouge/Groupe.cpp.o.d"
+  "CMakeFiles/C__.dir/TP7/File_Rouge/main.cpp.o"
+  "CMakeFiles/C__.dir/TP7/File_Rouge/main.cpp.o.d"
   "C__"
   "C__.pdb"
 )

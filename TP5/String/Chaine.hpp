@@ -27,7 +27,7 @@ public:
     const char& operator[](int index) const;
     Chaine& operator=(const Chaine &uC);
 
-    friend std::ostream  & operator<<(std::ostream& os, const Chaine& ch);
+    friend std::ostream & operator<<(std::ostream& os, const Chaine& ch);
 };
 
 

@@ -10,7 +10,7 @@
 #ifndef C_CERCLE_HPP
 #define C_CERCLE_HPP
 
-class Cercle : public Forme{
+class [[maybe_unused]] Cercle : public Forme{
 private:
     int rayon, ordre;
 public:
