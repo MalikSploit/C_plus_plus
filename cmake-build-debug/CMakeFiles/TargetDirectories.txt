@@ -1,3 +1,0 @@
-/root/CLionProjects/C_plus_plus/cmake-build-debug/CMakeFiles/C__.dir
-/root/CLionProjects/C_plus_plus/cmake-build-debug/CMakeFiles/edit_cache.dir
-/root/CLionProjects/C_plus_plus/cmake-build-debug/CMakeFiles/rebuild_cache.dir
