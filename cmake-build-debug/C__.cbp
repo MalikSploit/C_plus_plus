@@ -82,13 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/root/CLionProjects/C_plus_plus/TP7/File_Rouge/Cercle.cpp">
-			<Option target="C__"/>
-		</Unit>
-		<Unit filename="/root/CLionProjects/C_plus_plus/TP7/File_Rouge/Groupe.cpp">
-			<Option target="C__"/>
-		</Unit>
-		<Unit filename="/root/CLionProjects/C_plus_plus/TP7/File_Rouge/main.cpp">
+		<Unit filename="/root/CLionProjects/C_plus_plus/TP8/Tableau_associatif/main.cpp">
 			<Option target="C__"/>
 		</Unit>
 		<Unit filename="/root/CLionProjects/C_plus_plus/CMakeLists.txt">
