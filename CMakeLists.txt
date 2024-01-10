@@ -4,5 +4,5 @@ project(C__)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(C__
-        TP8/Tableau_associatif/main.cpp
+        TP9/Heritage/main.cpp
 )
