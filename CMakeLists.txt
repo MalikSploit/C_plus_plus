@@ -4,5 +4,5 @@ project(C__)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(C__
-        TP9/Heritage/main.cpp
+        TP/TP10/Heritage_repetition/main.cpp
 )

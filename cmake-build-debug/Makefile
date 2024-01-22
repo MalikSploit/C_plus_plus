@@ -129,29 +129,29 @@ C__/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/build
 .PHONY : C__/fast
 
-TP9/Heritage/main.o: TP9/Heritage/main.cpp.o
-.PHONY : TP9/Heritage/main.o
+TP10/Heritage_repetition/main.o: TP10/Heritage_repetition/main.cpp.o
+.PHONY : TP10/Heritage_repetition/main.o
 
 # target to build an object file
-TP9/Heritage/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP9/Heritage/main.cpp.o
-.PHONY : TP9/Heritage/main.cpp.o
+TP10/Heritage_repetition/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP10/Heritage_repetition/main.cpp.o
+.PHONY : TP10/Heritage_repetition/main.cpp.o
 
-TP9/Heritage/main.i: TP9/Heritage/main.cpp.i
-.PHONY : TP9/Heritage/main.i
+TP10/Heritage_repetition/main.i: TP10/Heritage_repetition/main.cpp.i
+.PHONY : TP10/Heritage_repetition/main.i
 
 # target to preprocess a source file
-TP9/Heritage/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP9/Heritage/main.cpp.i
-.PHONY : TP9/Heritage/main.cpp.i
+TP10/Heritage_repetition/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP10/Heritage_repetition/main.cpp.i
+.PHONY : TP10/Heritage_repetition/main.cpp.i
 
-TP9/Heritage/main.s: TP9/Heritage/main.cpp.s
-.PHONY : TP9/Heritage/main.s
+TP10/Heritage_repetition/main.s: TP10/Heritage_repetition/main.cpp.s
+.PHONY : TP10/Heritage_repetition/main.s
 
 # target to generate assembly for a file
-TP9/Heritage/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP9/Heritage/main.cpp.s
-.PHONY : TP9/Heritage/main.cpp.s
+TP10/Heritage_repetition/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP10/Heritage_repetition/main.cpp.s
+.PHONY : TP10/Heritage_repetition/main.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C__"
-	@echo "... TP9/Heritage/main.o"
-	@echo "... TP9/Heritage/main.i"
-	@echo "... TP9/Heritage/main.s"
+	@echo "... TP10/Heritage_repetition/main.o"
+	@echo "... TP10/Heritage_repetition/main.i"
+	@echo "... TP10/Heritage_repetition/main.s"
 .PHONY : help
 
 
