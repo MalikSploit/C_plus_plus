@@ -5,9 +5,9 @@
 #include "catch.hpp"
 #include "deviant.hpp"
 
-/*
+
 TEST_CASE("Personne1") {
-	  const char * nom = "Jeffrey Dean Morgan";
+    const char * nom = "Jeffrey Dean Morgan";
     Personne p1(nom);
 
     REQUIRE(nom == p1.getNom());
@@ -15,24 +15,22 @@ TEST_CASE("Personne1") {
     p1.setNom("negan");
     
     REQUIRE("negan" == p1.getNom());
-} */
+}
 
-/*
+
 TEST_CASE("Personne2") {
     const char * nom = "Rick Grimes";
     const Personne p2(nom);
 
     REQUIRE(nom     == p2.getNom());
-} */
+}
 
-/*
 TEST_CASE("Personne3") {
     const Personne p3;
 
     REQUIRE("inconnu"    == p3.getNom());
-}*/
+}
 
-/*
 TEST_CASE("Individu1") {
     int dep = Individu::getCompteur();
 
@@ -43,9 +41,9 @@ TEST_CASE("Individu1") {
     Individu  * pi = new Individu;
     delete   pi;
     CHECK (dep+3 == Individu::getCompteur());    
-} */
+}
 
-/*
+
 TEST_CASE("Individu2") {
   std::stringstream ss1, ss2;
   ss1 << Individu::getCompteur()+1;
@@ -58,9 +56,9 @@ TEST_CASE("Individu2") {
 
   i.afficher(ss2);
   REQUIRE(ss1.str() == ss2.str());
-} */
+}
 
-/*
+
 TEST_CASE("Personne4") {
   int nb = Individu::getCompteur()+1;
   
@@ -72,9 +70,9 @@ TEST_CASE("Personne4") {
 
   REQUIRE(nb == i->getId());
   delete i;
-} */
+}
 
-/*
+
 TEST_CASE("Personne5") {
   std::stringstream ss1, ss2;
   ss1 << "Robert Kirkman " << Individu::getCompteur()+1;
@@ -87,9 +85,8 @@ TEST_CASE("Personne5") {
   p.afficher(ss2);
   REQUIRE(ss1.str() == ss2.str());
 }
-*/
 
-/*
+
 TEST_CASE("Individu3") {
   std::stringstream ss1, ss2;
   ss1 << Individu::getCompteur()+1;
@@ -98,9 +95,9 @@ TEST_CASE("Individu3") {
   ss2 << i;
 
   REQUIRE( ss1.str() == ss2.str());
-} */
+}
 
-/*
+
 TEST_CASE("Personne6") {
   std::stringstream ss1, ss2;
   ss1 << "Daryl Dixon " << Individu::getCompteur()+1;
@@ -109,29 +106,29 @@ TEST_CASE("Personne6") {
   ss2 << p;
 
   REQUIRE( ss1.str() == ss2.str());
-} */
+}
 
-/*
+
 TEST_CASE("Type1") {
   Personne p;
   REQUIRE (TYPE::PERSONNE == p.getType());
-} */
+}
 
-/*
+
 TEST_CASE("Type2") {
   Individu * i = new Personne;
   REQUIRE (TYPE::PERSONNE == i->getType());
   delete i;
-} */
+}
 
-/*
+
 TEST_CASE("Exception") {
    IllegalException e;
 
    REQUIRE( strcmp("illegal exception", e.what()) == 0 );
-}*/
+}
 
-/*
+
 TEST_CASE("ExceptionType") {
   const Individu i;
   int r = 0;
@@ -146,22 +143,22 @@ TEST_CASE("ExceptionType") {
   CHECK   (r>0); // Exception obligatoire pour passer le test
   CHECK   (r>1); // C'est mieux si c est celle que j'attends
 
-}*/ 
+}
 
-/*
+
 TEST_CASE("Ville1") {
   // voir la definition de CITE
   int   nb    = CITE.size();
-  
+
   Personne p1("1");
   REQUIRE (nb+1 == CITE.size());
   Personne p2;
   REQUIRE (nb+2 == CITE.size());
   Individu p3;
   REQUIRE (nb+2 == CITE.size());
-} */
+}
 
-/*
+
 TEST_CASE("Ville2") {
   int   nb    = CITE.size();
   
@@ -169,9 +166,9 @@ TEST_CASE("Ville2") {
   REQUIRE (nb+1 == CITE.size());
   delete p1;
   REQUIRE (nb == CITE.size());
-} */
+}
 
-/*
+
 TEST_CASE("Deviant1") {
   int nb = CITE.size();
 
@@ -188,11 +185,10 @@ TEST_CASE("Deviant1") {
   Deviant  zz2(a, "20160930");
   REQUIRE( a.getId()  == zz2.getId()  );
   REQUIRE ("20160930" == zz2.getObs() );
-  
   REQUIRE (nb == CITE.size());
-} */
+}
 
-/*
+
 TEST_CASE("Deviant2") {
   Personne l("loic");
   Personne a("alexis");
@@ -201,21 +197,21 @@ TEST_CASE("Deviant2") {
   Deviant  zz2(l, "19990930");
 
   REQUIRE (zz2 < zz1 );
-} */
+}
 
-/*
+
 TEST_CASE("Type3") {
   Individu * i = new Deviant(Personne("pasdebol"));
   REQUIRE (TYPE::DEVIANT == i->getType());
   delete i;
-} */
+}
 
-/*
+
 TEST_CASE("COVID") {
-  Deviant  zz[] = { Deviant(Personne("bruno") , "19980930"), 
-                    Deviant(Personne("alexis"), "20160930"), 
-                    Deviant(Personne("loic")  , "19990930"), 
-                    Deviant(Personne("jeremy"), "20210930") 
+  Deviant  zz[] = { Deviant(Personne("bruno") , "1998 09 30"),
+                    Deviant(Personne("alexis"), "2016 09 30"),
+                    Deviant(Personne("loic")  , "1999 09 30"),
+                    Deviant(Personne("jeremy"), "2021 09 30")
                    };
 
   Covid c;
@@ -229,7 +225,7 @@ TEST_CASE("COVID") {
    CHECK(&c.top() == &zz[2]);
    c.pop();
    CHECK(&c.top() == &zz[0]);
-} */
+}
 
 
 
