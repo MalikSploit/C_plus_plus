@@ -74,8 +74,14 @@ void Cite::addResident(Individu *resident) {
     residents.push_back(resident);
 }
 
+MatchId::MatchId(int id) : id(id) {}
+
+bool MatchId::operator()(const Individu *resident) const {
+    return resident->getId() == id;
+}
+
 void Cite::removeResident(int id) {
-    auto it = std::remove_if(residents.begin(), residents.end(), [id](const Individu* resident) { return resident->getId() == id; });
+    auto it = std::remove_if(residents.begin(), residents.end(), MatchId(id));
     if (it != residents.end()) {
         residents.erase(it, residents.end());
     }

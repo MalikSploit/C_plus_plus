@@ -77,6 +77,13 @@ public:
     TYPE getType() const override;
 };
 
+class MatchId{
+public:
+    int id;
+    MatchId(int id);
+    bool operator()(const Individu* resident) const;
+};
+
 class Covid{
 private:
     std::vector<Deviant*> deviants;
