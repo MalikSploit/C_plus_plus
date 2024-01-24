@@ -129,29 +129,29 @@ C__/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/build
 .PHONY : C__/fast
 
-TP10/Heritage_repetition/main.o: TP10/Heritage_repetition/main.cpp.o
-.PHONY : TP10/Heritage_repetition/main.o
+TP/TP10/Heritage_repetition/main.o: TP/TP10/Heritage_repetition/main.cpp.o
+.PHONY : TP/TP10/Heritage_repetition/main.o
 
 # target to build an object file
-TP10/Heritage_repetition/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP10/Heritage_repetition/main.cpp.o
-.PHONY : TP10/Heritage_repetition/main.cpp.o
+TP/TP10/Heritage_repetition/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP/TP10/Heritage_repetition/main.cpp.o
+.PHONY : TP/TP10/Heritage_repetition/main.cpp.o
 
-TP10/Heritage_repetition/main.i: TP10/Heritage_repetition/main.cpp.i
-.PHONY : TP10/Heritage_repetition/main.i
+TP/TP10/Heritage_repetition/main.i: TP/TP10/Heritage_repetition/main.cpp.i
+.PHONY : TP/TP10/Heritage_repetition/main.i
 
 # target to preprocess a source file
-TP10/Heritage_repetition/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP10/Heritage_repetition/main.cpp.i
-.PHONY : TP10/Heritage_repetition/main.cpp.i
+TP/TP10/Heritage_repetition/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP/TP10/Heritage_repetition/main.cpp.i
+.PHONY : TP/TP10/Heritage_repetition/main.cpp.i
 
-TP10/Heritage_repetition/main.s: TP10/Heritage_repetition/main.cpp.s
-.PHONY : TP10/Heritage_repetition/main.s
+TP/TP10/Heritage_repetition/main.s: TP/TP10/Heritage_repetition/main.cpp.s
+.PHONY : TP/TP10/Heritage_repetition/main.s
 
 # target to generate assembly for a file
-TP10/Heritage_repetition/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP10/Heritage_repetition/main.cpp.s
-.PHONY : TP10/Heritage_repetition/main.cpp.s
+TP/TP10/Heritage_repetition/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C__.dir/build.make CMakeFiles/C__.dir/TP/TP10/Heritage_repetition/main.cpp.s
+.PHONY : TP/TP10/Heritage_repetition/main.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C__"
-	@echo "... TP10/Heritage_repetition/main.o"
-	@echo "... TP10/Heritage_repetition/main.i"
-	@echo "... TP10/Heritage_repetition/main.s"
+	@echo "... TP/TP10/Heritage_repetition/main.o"
+	@echo "... TP/TP10/Heritage_repetition/main.i"
+	@echo "... TP/TP10/Heritage_repetition/main.s"
 .PHONY : help
 
 

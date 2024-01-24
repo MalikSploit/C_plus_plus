@@ -5,7 +5,7 @@
 #include "catch.hpp"
 #include "ferme.hpp"
 
-/*
+
 TEST_CASE("Produit1") {
     const char * nom   = "lait";
     
@@ -13,6 +13,7 @@ TEST_CASE("Produit1") {
 
     REQUIRE( nom == p.getNom());
 }
+
 
 TEST_CASE("Produit2") {
     const char * n1   = "oeuf";
@@ -28,6 +29,7 @@ TEST_CASE("Produit2") {
     REQUIRE( !p1.isEqual(p3));
 }
 
+
 TEST_CASE("Produit3") {
     const char * n1   = "oeuf";
     const char * n2   = "oeuf";
@@ -42,6 +44,7 @@ TEST_CASE("Produit3") {
     REQUIRE( !(p1 ==p3) );
 }
 
+
 TEST_CASE("Produit4") {    
     const Produit p1("oeuf");
     
@@ -53,6 +56,7 @@ TEST_CASE("Produit4") {
     REQUIRE("oeuf" == ss.str() );
 }
 
+
 TEST_CASE("Exception1") {
     std::exception * e = new PeutPasProduireException();
     std::string message("peut_pas_produire");
@@ -61,6 +65,7 @@ TEST_CASE("Exception1") {
     delete e;
 }
 
+
 TEST_CASE("Vache1") {
     const char * surnom   = "clarabelle";
     
@@ -68,6 +73,7 @@ TEST_CASE("Vache1") {
 
     REQUIRE( "lait" == v.produire().getNom());
 }
+
 
 TEST_CASE("Vache2") {
     const char * surnom   = "clarabelle";
@@ -79,6 +85,7 @@ TEST_CASE("Vache2") {
 
     REQUIRE( "la vache clarabelle meugle" == ss.str());
 }
+
 
 TEST_CASE("Vache3") {
     const char * surnom   = "clarabelle";
@@ -101,6 +108,7 @@ TEST_CASE("Vache3") {
     CHECK   ( result > 1);
 } 
 
+
 TEST_CASE("Poule1") {
     const char * surnom   = "dame gertrude";
     
@@ -109,6 +117,7 @@ TEST_CASE("Poule1") {
     REQUIRE( "oeuf" == p->produire().getNom());
     delete p;
 }
+
 
 TEST_CASE("Poule2") {
     const char * surnom   = "dame gertrude";
@@ -121,6 +130,7 @@ TEST_CASE("Poule2") {
     REQUIRE( "la poule dame gertrude glousse" == ss.str());
     delete p;
 }
+
 
 TEST_CASE("Poule3") {
     const char * surnom   = "clarabelle";
@@ -144,6 +154,7 @@ TEST_CASE("Poule3") {
     delete a;
 } 
 
+
 TEST_CASE("Animal1") {    
     int i = Animal::getCompteur();
 
@@ -157,7 +168,8 @@ TEST_CASE("Animal1") {
     REQUIRE( (i+2) == Animal::getCompteur() );
 }
 
-TEST_CASE("Animal2") {    
+
+TEST_CASE("Animal2") {
     
     Vache v1("vachette");
 
@@ -167,7 +179,7 @@ TEST_CASE("Animal2") {
     REQUIRE( (i+1) == Animal::getCompteur() );
 }
 
-TEST_CASE("Communiquer1") {    
+TEST_CASE("Communiquer1") {
 
     std::stringstream ss1, ss2;
 
@@ -178,6 +190,7 @@ TEST_CASE("Communiquer1") {
     REQUIRE( ss1.str() == ss2.str() );
     delete v;
 }
+
 
 TEST_CASE("Communiquer2") {    
 
@@ -191,7 +204,8 @@ TEST_CASE("Communiquer2") {
     delete p;
 }
 
-TEST_CASE("Ferme1") {    
+
+TEST_CASE("Ferme1") {
     
     int compteur = Animal::getCompteur();
 
@@ -199,6 +213,7 @@ TEST_CASE("Ferme1") {
 
     REQUIRE( compteur == Animal::getCompteur());
 }
+
 
 TEST_CASE("Ferme2") {    
     
@@ -216,6 +231,7 @@ TEST_CASE("Ferme2") {
     REQUIRE( (compteur+2) == Animal::getCompteur());
 }
 
+
 TEST_CASE("Ferme3") {    
     std::stringstream ss;
     Ferme f;
@@ -227,6 +243,7 @@ TEST_CASE("Ferme3") {
 
     REQUIRE( "la poule p1 glousse\nla vache v1 meugle\n" == ss.str());
 }
+
 
 TEST_CASE("Ferme4") {    
     std::stringstream ss;
@@ -248,6 +265,7 @@ TEST_CASE("Ferme4") {
     
     delete a;
 }
+
 
 TEST_CASE("Ferme5") {    
     std::stringstream ss;
@@ -285,5 +303,3 @@ TEST_CASE("Ferme6") {
              "la vache ferdinande meugle\nla vache otis meugle\n" == ss.str());
     
 }
-
-*/

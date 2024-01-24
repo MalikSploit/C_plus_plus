@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/C__.dir/TP10/Heritage_repetition/main.cpp.o"
-  "CMakeFiles/C__.dir/TP10/Heritage_repetition/main.cpp.o.d"
+  "CMakeFiles/C__.dir/TP/TP10/Heritage_repetition/main.cpp.o"
+  "CMakeFiles/C__.dir/TP/TP10/Heritage_repetition/main.cpp.o.d"
   "C__"
   "C__.pdb"
 )

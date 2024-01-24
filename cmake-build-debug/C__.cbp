@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/root/CLionProjects/C_plus_plus/TP10/Heritage_repetition/main.cpp">
+		<Unit filename="/root/CLionProjects/C_plus_plus/TP/TP10/Heritage_repetition/main.cpp">
 			<Option target="C__"/>
 		</Unit>
 		<Unit filename="/root/CLionProjects/C_plus_plus/CMakeLists.txt">
