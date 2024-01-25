@@ -77,17 +77,17 @@ public:
     TYPE getType() const override;
 };
 
-class MatchId{
+/*class MatchId{
 public:
     int id;
     MatchId(int id);
     bool operator()(const Individu* resident) const;
-};
+};*/
 
 class Covid{
 private:
     std::vector<Deviant*> deviants;
-    static bool compareByDate(const Deviant *a, const Deviant *b);
+    /*static bool compareByDate(const Deviant *a, const Deviant *b);*/
 
 public:
     void push(Deviant &d);

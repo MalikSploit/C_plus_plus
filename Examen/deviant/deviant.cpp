@@ -74,14 +74,17 @@ void Cite::addResident(Individu *resident) {
     residents.push_back(resident);
 }
 
-MatchId::MatchId(int id) : id(id) {}
+/*MatchId::MatchId(int id) : id(id) {}
 
 bool MatchId::operator()(const Individu *resident) const {
     return resident->getId() == id;
-}
+}*/
 
 void Cite::removeResident(int id) {
-    auto it = std::remove_if(residents.begin(), residents.end(), MatchId(id));
+    auto matchId = [id](const Individu *resident){
+        return resident->getId() == id;
+    };
+    auto it = std::remove_if(residents.begin(), residents.end(), matchId);
     if (it != residents.end()) {
         residents.erase(it, residents.end());
     }
@@ -128,6 +131,9 @@ TYPE Deviant::getType() const {
 
 void Covid::push(Deviant &d) {
     deviants.push_back(&d);
+    auto compareByDate = [](const Deviant *a, const Deviant *b){
+        return a->getObs() < b->getObs();
+    };
     std::sort(deviants.begin(), deviants.end(), compareByDate);
 }
 
@@ -142,8 +148,4 @@ Deviant &Covid::top() const{
         return *deviants.back();
     }
     throw std::out_of_range("Covid is empty");
-}
-
-bool Covid::compareByDate(const Deviant *a, const Deviant *b) {
-    return a->getObs() < b->getObs();
 }
