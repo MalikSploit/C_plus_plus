@@ -3,7 +3,7 @@
 #include "catch.hpp"
 #include "marvel.hpp"
 
-/*
+
 TEST_CASE("Personne1") {
     const char * prenom   = "Bruce";
     const char * nom      = "Wayne";
@@ -13,9 +13,9 @@ TEST_CASE("Personne1") {
     REQUIRE( prenom    == p.getPrenom());
     REQUIRE( nom       == p.getNom());
     REQUIRE( genre     == p.getGenre());
-}*/
+}
 
-/*
+
 TEST_CASE("Personne2") {
     const Personne p("Diana", "Prince", Personne::FEMME);
 
@@ -24,6 +24,7 @@ TEST_CASE("Personne2") {
     REQUIRE( Personne::FEMME  == p.getGenre());
 }
 
+
 TEST_CASE("Personne3") {
     Personne sorciere("Wanda", "Maximof", Personne::FEMME);
     std::stringstream ss;
@@ -31,22 +32,26 @@ TEST_CASE("Personne3") {
     REQUIRE("Wanda Maximof [FEMME]" == ss.str() );
 } 
 
+
 TEST_CASE("Inconnu1") {
     REQUIRE("Inconnu"             == Personne::INCONNU.getNom());
     REQUIRE("Inconnu"             == Personne::INCONNU.getPrenom());
     REQUIRE(Personne::INDETERMINE == Personne::INCONNU.getGenre());
 }  
 
+
 TEST_CASE("Inconnu2") {
     REQUIRE(   Personne::INCONNU  == Personne("Inconnu", "Inconnu", Personne::INDETERMINE));
     REQUIRE( !(Personne::INCONNU  == Personne("", "", Personne::HOMME)));
-}  
+}
+
 
 TEST_CASE("Inconnu3") {
     std::stringstream ss;
     ss << Personne::INCONNU;
     REQUIRE("Inconnu Inconnu [INDETERMINE]" == ss.str() );
 } 
+
 
 TEST_CASE("Super1") {
     Super heros("Superman", Personne("Clark", "Kent", Personne::HOMME));
@@ -55,6 +60,7 @@ TEST_CASE("Super1") {
     REQUIRE ( true      == heros.estAnonyme()); // C'est le pouvoir des lunettes
     // ça marche, même pour mon avatar !!!
 }
+
 
 TEST_CASE("Anonyme1") {
     Super spider("Spiderman", Personne("Peter", "Parker", Personne::HOMME));
@@ -65,11 +71,13 @@ TEST_CASE("Anonyme1") {
     REQUIRE ("Parker" == spider.getIdentite().getNom());
 }
 
+
 TEST_CASE("Anonyme2") {
     const char * msg = "identite anonyme";
     AnonymeException ie;
-    REQUIRE( strcmp(msg, ie.what() );
-} 
+    REQUIRE( std::strcmp(msg, ie.what()) == 0 );
+}
+
 
 TEST_CASE("Anonyme3") {
     Super spider("Spiderman", Personne("Peter", "Parker", Personne::HOMME));
@@ -77,6 +85,7 @@ TEST_CASE("Anonyme3") {
     REQUIRE_THROWS_AS( spider.getIdentite(), std::exception);
 
 }
+
 
 TEST_CASE("Super2") {
     Super venom("Venom", Personne("Peter", "Parker", Personne::HOMME));
@@ -87,7 +96,6 @@ TEST_CASE("Super2") {
     CHECK( "Brock"  == venom.getIdentite().getNom() );
     CHECK( "Parker" != venom.getIdentite().getNom() );
 }
-*/
 
 
 /*
@@ -98,13 +106,14 @@ TEST_CASE("Capacite0") {
 } 
 */
 
-/*
+
 TEST_CASE("Materiel") {
     Materiel armure("MarkI", 5);
     std::stringstream log;
     armure.actionner(log); 
     REQUIRE ( "MarkI [5] en action" == log.str()); 
 } 
+
 
 TEST_CASE("Physique") {
     Physique force("force", 3);
@@ -113,12 +122,14 @@ TEST_CASE("Physique") {
     REQUIRE ( "force [3]" == log.str()); 
 } 
 
+
 TEST_CASE("Psychique") {
     Psychique tp("telepathie", 7);
     std::stringstream log;
     tp.penser(log); 
     REQUIRE ( "telepathie [7]" == log.str()); 
 }
+
 
 TEST_CASE("Capacite1") {
     std::stringstream log;
@@ -135,6 +146,7 @@ TEST_CASE("Capacite1") {
     delete capa;
 } 
 
+
 TEST_CASE("Capacite2") {
     Super wolf("wolferine", Personne("James", "Howlett")); // Le vrai nom de Logan
     wolf.ajouter(new Physique("regeneration", 50));
@@ -148,6 +160,7 @@ TEST_CASE("Capacite2") {
     REQUIRE(100 == rien.getNiveau());
 }
 
+
 TEST_CASE("Capacite3") {
     Capacite * m1 = new Materiel("Anneau", 5);
     Capacite * m2 = m1->clone();
@@ -160,6 +173,7 @@ TEST_CASE("Capacite3") {
     delete m2;
     delete m3;
 }
+
 
 TEST_CASE("Super3") {
     Super iron("Iron Man", Personne("Tony", "Starck"));
@@ -179,6 +193,7 @@ TEST_CASE("Super3") {
     REQUIRE ( iron.getIdentite().getGenre () == warm.getIdentite().getGenre () );
     REQUIRE ( 10 == warm.getNiveau());
 }
+
 
 TEST_CASE("Equipe") {
     Equipe vengeurs("vengeurs");
@@ -217,4 +232,3 @@ TEST_CASE("Equipe") {
     REQUIRE ( 880 == vengeurs.getNiveau());
     // Il manque Thor Odinsen et Steve Rogers pour l'équipe originelle :-)
 }
-*/
