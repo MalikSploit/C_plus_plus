@@ -64,7 +64,6 @@ private:
     std::string text;
 public:
     SMS(std::string exp="", std::string dest="", std::string d="");
-    SMS(const SMS & sms);
     void setTexte(const std::string t);
     std::string getTexte() const;
     std::string afficher() const override;
