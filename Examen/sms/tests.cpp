@@ -5,16 +5,16 @@
 
 
 TEST_CASE("telephone1a") {
-/* Telephone iphone;
+ Telephone iphone;
  const char * isima = "0473405000";
 
  CHECK( "" == iphone.getNumero());
  iphone.setNumero(isima);
- CHECK( isima == iphone.getNumero()); */
+ CHECK( isima == iphone.getNumero());
 }
 
 
-/*
+
 TEST_CASE("telephone1b") {
  std::string loic = "0473405042";
  Telephone   iphone(loic);
@@ -22,11 +22,13 @@ TEST_CASE("telephone1b") {
  CHECK( loic == iphone.getNumero());
 }
 
+
 TEST_CASE("telephone2") {
  const Telephone iphone("0473449520");
 
  CHECK( "0473449520" == iphone.getNumero());
 }
+
 
 TEST_CASE("Reseau1") {
  Reseau r;
@@ -50,6 +52,7 @@ TEST_CASE("Reseau2") {
  CHECK ("0473405000\n0473405042\n0473407632\n" == r.lister());
 }
 
+
 // C'est bien pourri mais permet d'initialiser r
 #define MON_RESEAU \
 Reseau r;\
@@ -65,10 +68,11 @@ TEST_CASE("Reseau3") {
  CHECK(&r           == r.trouveTel("0473405042").getReseau());
 }
 
+
 TEST_CASE("Reseau4") {
  MON_RESEAU;
 
- CHECK_THROWS_AS("0473405070" == r.trouveTel("0473405070").getNumero(), std::invalid_argument);
+    CHECK_THROWS_AS(r.trouveTel("0473405070").getNumero(), std::invalid_argument);
 }
 
 TEST_CASE("Reseau5") {
@@ -77,11 +81,13 @@ TEST_CASE("Reseau5") {
   CHECK(strcmp("mauvais numero", e.what()) == 0 );
 }
 
+
 TEST_CASE("Reseau6") {
   MON_RESEAU;
 
   CHECK_THROWS_AS("0473405070" == r.trouveTel("0473405070").getNumero(), MauvaisNumero);
 }
+
 
 TEST_CASE("Telephone3") {
  const Telephone t;
@@ -89,12 +95,13 @@ TEST_CASE("Telephone3") {
  CHECK( 0 == t.getReseau());
 }
 
+
 TEST_CASE("SMS1") {
 	SMS sms("0473405044", "0473405042", "20171207");
 	sms.setTexte("Examen en cours");
 	CHECK("Examen en cours" == sms.getTexte());
 	CHECK("Examen en cours" == sms.afficher());
-} */
+}
 
 /*
 TEST_CASE("Message0") {
@@ -102,7 +109,7 @@ TEST_CASE("Message0") {
    // si ca compile, c'est perdu ...
 } */
 
-/*
+
 TEST_CASE("Message1") {
  int nb = Message::getCle();
  Message * sms1 = new SMS("", "", "");
@@ -115,11 +122,13 @@ TEST_CASE("Message1") {
  delete sms1;
 }
 
+
 TEST_CASE("Telephone4") {
 	const Telephone t;
 
   CHECK( 0 == t.getNbMessages());
 }
+
 
 TEST_CASE("SMS2") {
 	MON_RESEAU;
@@ -138,6 +147,7 @@ TEST_CASE("SMS2") {
 
 }
 
+
 TEST_CASE("SMS3") {
 	MON_RESEAU;
 
@@ -151,6 +161,7 @@ TEST_CASE("SMS3") {
 
 }
 
+
 TEST_CASE("Media") {
 	Media * m1 = new Image;
 	CHECK( "[[image]]" == m1->afficher() );
@@ -162,6 +173,7 @@ TEST_CASE("Media") {
 	CHECK( "[[video]]" == m3->afficher() );
 	delete m3;
 }
+
 
 TEST_CASE("MMS1") {
 	MMS * m1 = new MMS("", "", "");
@@ -179,6 +191,7 @@ TEST_CASE("MMS1") {
   delete m1;  
 }
 
+
 TEST_CASE("MMS2") {
 	MMS * m1 = new MMS("", "", "");
   CHECK("" == m1->afficher());
@@ -194,6 +207,7 @@ TEST_CASE("MMS2") {
   delete m3;
     // espace memoire correctement libere ?    
 }
+
 
 TEST_CASE("MMS3") {
 	MON_RESEAU;
@@ -215,4 +229,5 @@ TEST_CASE("MMS3") {
   CHECK(1 == de->getNbMessages());
   CHECK(1 ==  a->getNbMessages());
 
-} */
+  delete mms; //Fallait rajouter ca pour valgrind
+}
